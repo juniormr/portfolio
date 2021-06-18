@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-const Navbar = () => {
+const Navbar = ({click}) => {
     return(
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
@@ -13,19 +13,16 @@ const Navbar = () => {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav ml">
                 <li className="nav-item active">
-                    <a className="nav-link" href="/#">Home </a>
+                    <a className="nav-link" href="/#" onClick={()=>click('home')} >Home </a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/#">Projects</a>
+                    <a className="nav-link" href="/#" onClick={()=>click('projects')} >Projects</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/#">Experience</a>
+                    <a className="nav-link " href="/#" onClick={()=>click('aboutme')} >About me</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link " href="/#">About me</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link " href="/#">Contact</a>
+                    <a className="nav-link " href="/#" onClick={()=>click('contact')} >Contact</a>
                 </li>
                 </ul>
             </div>
@@ -35,4 +32,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;

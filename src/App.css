@@ -7,7 +7,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-
 }
 
 /* Menu Links */
@@ -43,3 +42,39 @@ nav ul li {
 .navbar-nav > li > a:hover{
   border-top: 0.1875rem solid var(--primary-blue) ;
 }
+
+/* Header */
+
+.header-wraper {
+  position: relative;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(168,224,215,1));
+  background-size: cover;
+  background-position: center;
+  height: 82vh;
+}
+
+.main-info{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1 {
+  color: #2C3B38;
+  font-weight: 600;
+}
+
+.typed-text{
+  font-size: 2rem;
+  color: #2C3B38;
+}
+
+
