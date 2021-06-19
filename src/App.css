@@ -15,12 +15,12 @@ body {
   text-align: right;
 }
 
-nav a.nav-link{
+nav p.nav-link{
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
 
-nav a.navbar-brand{
+nav p.navbar-brand{
   font-weight: 600;
   letter-spacing: 0.0375rem;
 }
@@ -29,17 +29,17 @@ nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav > li > a {
+.navbar-nav > li > p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   border-top: 0.1875rem solid var(--primary-white) ;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+.navbar-nav > li > p.active, .navbar-nav > li > a.active:focus{
   border-top: 0.1875rem solid var(--primary-blue) ;
 }
 
-.navbar-nav > li > a:hover{
+.navbar-nav > li > p:hover{
   border-top: 0.1875rem solid var(--primary-blue) ;
 }
 

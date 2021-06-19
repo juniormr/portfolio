@@ -13,10 +13,10 @@ const Navbar = ({click}) => {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav ml">
                 <li className="nav-item active">
-                    <a className="nav-link"  onClick={()=>click('home')} >Home </a>
+                    <p className="nav-link" onClick={()=>click('home')} >Home </p>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link"  onClick={()=>click('projects')} >Projects</a>
+                    <p className="nav-link" onClick={()=>click('projects')} >Projects</p>
                 </li>
                 </ul>
             </div>
