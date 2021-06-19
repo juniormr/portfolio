@@ -20,4 +20,14 @@
     transform: translateY(2px);
     transition-duration: 400ms;
   }
+
+  .copy{
+    color: black;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .copy:hover{
+    color: black;
+  }
   

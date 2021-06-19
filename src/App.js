@@ -18,16 +18,11 @@ function App() {
       case 'home':
         return <Header />;      
       case 'projects':
-        return <Projects /> ;
-      case 'aboutme':
-        return <h1>aboutme</h1>;  
-      case 'contact':
-        return <h1>contact</h1>;  
+        return <Projects /> ;   
       default:
-        return <h1>home</h1>;
+        return <Header />;
     }
   }
-  console.log(route);
 
   return (
     <div>

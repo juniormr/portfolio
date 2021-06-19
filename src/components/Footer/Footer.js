@@ -16,8 +16,9 @@ const Footer = () => {
             </div>
             <div  className="container d-flex justify-content-center">
             <div className="line">
-                © 2021 - Template developed by 
-                <a className="text-dark" style={{textDecoration:"none"}} href="https://github.com/juniormr/" target="_blank" rel="noreferrer"> Junior Marquez</a>
+                © 2021
+                <a className="copy text-black" style={{textDecoration:"none"}} href="https://github.com/juniormr/" target="_blank" rel="noreferrer">Junior Marquez</a>
+                - Built with Bootstrap, React
             </div>
             </div>
         </footer>

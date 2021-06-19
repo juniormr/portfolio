@@ -14,7 +14,6 @@ const Header = () => {
                 backSpeed={80}
                 loop
                 />
-                <a href='/#'></a>
             </div>
         </div>
     )
