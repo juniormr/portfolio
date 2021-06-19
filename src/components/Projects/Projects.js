@@ -6,9 +6,9 @@ import smartbrain from './smartbrain.jpg';
 const Projects = () => {
     return (
         <div className="card-deck">
-            <div className="card cardBox">
+            <div className="card">
                 <img className="imageSize" src={countries} alt="Card"/>
-                <div className="card-body textAlign">
+                <div className="card-body">
                 <h5 className="card-title">Countries App</h5>
                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div className="buttonsBox">
@@ -21,9 +21,9 @@ const Projects = () => {
                 </div>
                 </div>
             </div>
-            <div className="card cardBox">
+            <div className="card">
                 <img className="imageSize" src={smartbrain} alt="Card"/>
-                <div className="card-body textAlign">
+                <div className="card-body">
                 <h5 className="card-title">Face Recognition App</h5>
                 <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                 <div className="buttonsBox">
