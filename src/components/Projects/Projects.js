@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import countries from './countries.jpg';
-import smartbrain from './smartbrain.jpg';
+import smartbrain from './face.jpg';
 
 const Projects = () => {
     return (
