@@ -7,15 +7,13 @@ const Header = () => {
         <div className='header-wraper'>
             <div className='main-info'>
                 <h1>Hi, I'm Junior M</h1>
-                <h2>I'm a
                 <Typed
                 className="typed-text"
-                strings={[`&nbsp; Frontend Developer`,`n Electronic Engineer`]}
+                strings={[`I'm a Frontend Developer`,`I'm an Electronic Engineer`]}
                 typeSpeed={84}
                 backSpeed={40}
                 loop
                 />
-                </h2>
             </div>
         </div>
     )
