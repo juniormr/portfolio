@@ -23,6 +23,7 @@ nav p.nav-link{
 nav p.navbar-brand{
   font-weight: 600;
   letter-spacing: 0.0375rem;
+  height: 26px;
 }
 
 nav ul li {
@@ -30,9 +31,11 @@ nav ul li {
 }
 
 .navbar-nav > li > p {
+  height: 26px;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   border-top: 0.1875rem solid var(--primary-white) ;
+  font-weight: 500;
 }
 
 .navbar-nav > li > p.active, .navbar-nav > li > a.active:focus{
@@ -41,6 +44,10 @@ nav ul li {
 
 .navbar-nav > li > p:hover{
   border-top: 0.1875rem solid var(--primary-blue) ;
+}
+
+.navbar{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03), 0 4px 8px 0 rgba(0, 0, 0, 0.03);
 }
 
 /* Header */

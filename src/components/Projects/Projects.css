@@ -6,6 +6,15 @@
 
 }
 
+.card-title{
+  font-weight: 600;
+  
+}
+
+.card-text{
+  margin-top: 5%;
+}
+
 .card{
     font-family: "Poppins", sans-serif;
     display: flexbox;
@@ -16,6 +25,7 @@
     margin-left: 1rem;
     margin-right: 1rem;
     background-color: #f8f9fa;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
 }
 
 .card-body{
@@ -37,8 +47,6 @@
     transform: skew(1deg);
     animation-direction: alternate;
   }
-
-
   
   @keyframes skew {
     0% {
@@ -50,7 +58,7 @@
   }
 
 .buttonsBox{
-    display: flex;
+    display: flexbox;
     text-align: center;
     margin-top: 30px;
 }
@@ -62,7 +70,7 @@
     color: black;
     border: 1px solid black;
     border-radius: 3px;
-    background: linear-gradient(to right, rgb(4, 129, 123) 50%, white 50%);
+    background: linear-gradient(to right, rgb(3, 177, 168) 50%, white 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
@@ -80,7 +88,7 @@
     color: black;
     border: 1px solid black;
     border-radius: 3px;
-    background: linear-gradient(to right, rgb(4, 129, 123) 50%, white 50%);
+    background: linear-gradient(to right, rgb(3, 177, 168) 50%, white 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;

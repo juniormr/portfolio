@@ -22,7 +22,6 @@ const Navbar = ({click}) => {
             </div>
             </div>
         </nav>
-        
     )
 }
 
