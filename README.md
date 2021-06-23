@@ -4,7 +4,7 @@ This is a portfolio to display my projects.
 
 ## Getting Started
 
-These app is built with create-react-app. 
+This app is built with create-react-app. 
 
 ### Prerequisites
 
